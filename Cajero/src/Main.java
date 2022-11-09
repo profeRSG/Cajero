@@ -114,6 +114,7 @@ public class Main {
 	}
 
 	public static void subir() {
+		System.out.println("subir");
 	}
 }
 
