@@ -117,7 +117,7 @@ public class Main {
 	 * Metodo que mjuestra por pantalla subir
 	 */
 	public static void subir() {
-		System.out.println("subir");//Imprimir la palabra subir
+		System.out.println("subirRRR");//Imprimir la palabra subir
 	}
 }
 
