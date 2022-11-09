@@ -116,7 +116,7 @@ public class Main {
 	/**
 	 * Metodo que mjuestra por pantalla subir
 	 */
-	public static void subir() {
+	public staticrr void subir() {
 		System.out.println("subirRRR");//Imprimir la palabra subir
 	}
 }
