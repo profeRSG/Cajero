@@ -112,4 +112,8 @@ public class Main {
 		System.out.println("3. Consultar saldo");
 		System.out.println("4. Cerrar sesión");
 	}
+
+	public static void subir() {
+	}
 }
+
