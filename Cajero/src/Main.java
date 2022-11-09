@@ -28,9 +28,9 @@ public class Main {
 	 * Metodo que muestra por pantalla el saldo actual
 	 * 
 	 */
-	private static void consultarSaldo(double saldo333) {
-		System.out.println("Su saldo actual es "+saldo+"€");
 
+	private static void consultarSaldo(double saldo555) {
+		System.out.println("Su saldo actual es "+saldo555+"�");
 	}
 
 	/**
@@ -112,4 +112,12 @@ public class Main {
 		System.out.println("3. Consultar saldo");
 		System.out.println("4. Cerrar sesión");
 	}
+
+	/**
+	 * Metodo que mjuestra por pantalla subir
+	 */
+	public static void subir() {
+		System.out.println("subirRRR");//Imprimir la palabra subir
+	}
 }
+
