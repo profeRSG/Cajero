@@ -113,8 +113,11 @@ public class Main {
 		System.out.println("4. Cerrar sesión");
 	}
 
+	/**
+	 * Metodo que mjuestra por pantalla subir
+	 */
 	public static void subir() {
-		System.out.println("subir");
+		System.out.println("subir");//Imprimir la palabra subir
 	}
 }
 
