@@ -28,15 +28,15 @@ public class Main {
 	 * Metodo que muestra por pantalla el saldo actual
 	 * 
 	 */
-	private static void consultarSaldo(double saldo) {
-		System.out.println("Su saldo actual es "+saldo+"€");
+	private static void consultarSaldo(double saldo333) {
+		System.out.println("Su saldo actual es "+saldo+"â‚¬");
 
 	}
 
 	/**
 	 * 
-	 * Método utilizado para ingresar saldo. Tomara como entrada
-	 * el saldo que se le proporcione por teclado. Preguntará al
+	 * MÃ©todo utilizado para ingresar saldo. Tomara como entrada
+	 * el saldo que se le proporcione por teclado. PreguntarÃ¡ al
 	 * usuario cuanto dinero quiere ingresar, y se devoovera como valor
 	 * el resultado de sumar al saldo la cantidad que se quiere ingresar.
 	 */
@@ -45,7 +45,7 @@ public class Main {
 		double dineroIngresado;//Dinero que se desea ingresar
 		double resultado;// resultado de sumar saldo +  el dinero ingresado
 
-		System.out.println("¿Cuanto dinero desea ingresar?");
+		System.out.println("Â¿Cuanto dinero desea ingresar?");
 		dineroIngresado=sc.nextDouble();
 
 		while(dineroIngresado<0) { //Validamos que el dinero no sea negativo. 
@@ -58,8 +58,8 @@ public class Main {
 
 	/**
 	 * 
-	 * Método utilizado para sacar dinero. Tomara como entrada
-	 * el saldo que se le proporcione por teclado. Preguntará al
+	 * MÃ©todo utilizado para sacar dinero. Tomara como entrada
+	 * el saldo que se le proporcione por teclado. PreguntarÃ¡ al
 	 * usuario cuanto dinero quiere retirar, y se devolvera como valor
 	 * el resultado de restar al saldo la cantidad que se quiere retirar.
 	 */
@@ -68,7 +68,7 @@ public class Main {
 		double dineroParaRetirar;//Dinero que se desea retirar
 		double resultado;// resultado de sumar saldo -  el dinero para retirar
 
-		System.out.println("¿Cuanto dinero desea retirar?");
+		System.out.println("Â¿Cuanto dinero desea retirar?");
 		dineroParaRetirar=sc.nextDouble();
 		resultado=saldo - dineroParaRetirar;//Calculamos el resultado al retirar el dinero
 
@@ -85,8 +85,8 @@ public class Main {
 	/**
 	 * 
 	 * Metodo utilizado para elegir una opcion del menu principal.
-	 * La opcion se seleccionará por teclado, y será un numero entre 1 y 3
-	 * Se validará la entrada.
+	 * La opcion se seleccionarÃ¡ por teclado, y serÃ¡ un numero entre 1 y 3
+	 * Se validarÃ¡ la entrada.
 	 */
 	private static int elegirOpcion() {
 		Scanner sc=new Scanner(System.in);
@@ -94,8 +94,8 @@ public class Main {
 
 		opcion=sc.nextInt();//Leemos la opcion del teclado por primera vez
 		while(opcion<1 || opcion>3) {//Mientras esta fuera del rango permitido
-			System.out.println("Opción invalida");
-			System.out.println("Por favor, seleccione una opción entre 1 y 3");
+			System.out.println("OpciÃ³n invalida");
+			System.out.println("Por favor, seleccione una opciÃ³n entre 1 y 3");
 			opcion=sc.nextInt();// Volvemos a leer la opcion
 		}
 		return opcion; //Se devuelve la opcion seleccionada
@@ -103,13 +103,13 @@ public class Main {
 
 	/**
 	 * Metodo que muestra el menu principal por pantalla.
-	 * Las opciones que mostrará son 1 Ingresar dinero, 2 Sacar dinero, 3 Cerrar sesion
+	 * Las opciones que mostrarÃ¡ son 1 Ingresar dinero, 2 Sacar dinero, 3 Cerrar sesion
 	 */
 	private static void mostrarMenu() {
-		System.out.println("\n¿Qué desea hacer?");
+		System.out.println("\nÂ¿QuÃ© desea hacer?");
 		System.out.println("1. Ingresar dinero");
 		System.out.println("2. Sacar dinero");
 		System.out.println("3. Consultar saldo");
-		System.out.println("4. Cerrar sesión");
+		System.out.println("4. Cerrar sesiÃ³n");
 	}
 }
