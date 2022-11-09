@@ -28,8 +28,8 @@ public class Main {
 	 * Metodo que muestra por pantalla el saldo actual
 	 * 
 	 */
-	private static void consultarSaldo(double saldo) {
-		System.out.println("Su saldo actual es "+saldo+"€");
+	private static void consultarSaldo(double saldo555) {
+		System.out.println("Su saldo actual es "+saldo555+"€");
 
 	}
 
