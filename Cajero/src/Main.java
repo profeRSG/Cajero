@@ -4,6 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		int opcion;
+		int nuevaVariableWW;
 		double saldo=0;
 		do {
 			mostrarMenu();//Muestra el menu principal
